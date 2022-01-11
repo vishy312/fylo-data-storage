@@ -12,11 +12,12 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <main class="container">
     <header class="title">
-      <h1 class="logo">FYLO</h1>
+      <img src="images/logo.svg" class="logo-svg" alt="logo">
       <div class="buttons">
         <div class="document">
           <img src="images/icon-document.svg" alt="document-icon">
@@ -30,20 +31,20 @@
       </div>
     </header>
     <div class="storage">
-      <div class="storage">
-        <p>You’ve used 815 GB of your storage</p>
+      <div class="storage-used">
+        <p>You’ve used <span>815 GB</span> of your storage</p>
       </div>
       <div class="bar">
-        <div class="bar-inside"></div>
+        <div class="bar-inside">
+          <div class="white-ball"></div>
+        </div>
       </div>
       <div class="limit">
         <p>0 GB</p>
         <p>1000 GB</p>
       </div>
-      <div class="storage-left">185 <span>GB Left</span></div>
-      <div class="storage-left"></div>
     </div>  
-
+    <div class="storage-left">185 <span>GB Left</span></div>
   
 
   
